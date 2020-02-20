@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Wno-sign-compare -g -std=c++14 -O4 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_order.dir/test_order.cpp.o  -o test_order  /usr/local/lib/libgtest.a /usr/local/lib/libgmock.a /usr/local/lib/libgmock_main.a 

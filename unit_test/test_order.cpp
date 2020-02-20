@@ -1,8 +1,8 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "lib/mail_service.hpp"
-#include "lib/warehouse.hpp"
-#include "lib/order.hpp"
+#include "src/mail_service.hpp"
+#include "src/warehouse.hpp"
+#include "src/order.hpp"
 
 using ::testing::Return;
 using ::testing::_; // Matcher for parameters

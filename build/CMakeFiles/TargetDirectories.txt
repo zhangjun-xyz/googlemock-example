@@ -1,0 +1,5 @@
+/Users/zhangjun45/workspace/open/googlemock-example/build/CMakeFiles/rebuild_cache.dir
+/Users/zhangjun45/workspace/open/googlemock-example/build/CMakeFiles/edit_cache.dir
+/Users/zhangjun45/workspace/open/googlemock-example/build/unit_test/CMakeFiles/rebuild_cache.dir
+/Users/zhangjun45/workspace/open/googlemock-example/build/unit_test/CMakeFiles/edit_cache.dir
+/Users/zhangjun45/workspace/open/googlemock-example/build/unit_test/CMakeFiles/test_order.dir

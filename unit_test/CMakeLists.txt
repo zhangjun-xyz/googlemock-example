@@ -1,0 +1,16 @@
+cmake_minimum_required (VERSION 2.8)
+project (googlemock_example)
+
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIR})
+message(STATUS ${GTEST_INCLUDE_DIR})
+message(STATUS ${GTEST_LIBRARIES})
+message(STATUS ${GMOCK_LIBRARIES})
+
+include_directories(..)
+add_executable(test_order test_order.cpp)
+find_library(GMOCKLIB1 gmock gmock_main HINTS /usr/local/lib/) 
+find_library(GMOCKLIB2 gmock_main HINTS /usr/local/lib/) 
+message(STATUS ${GMOCKLIB1})
+message(STATUS ${GMOCKLIB2})
+target_link_libraries(test_order ${GTEST_LIBRARIES} ${GMOCK_LIBRARIES} ${GMOCKLIB1} ${GMOCKLIB2})
